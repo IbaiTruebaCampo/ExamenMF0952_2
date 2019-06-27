@@ -7,36 +7,82 @@
   <meta name="description" content="Esta página convierte datos hexadecimales en decimales">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Examen Parcial UF1305 y UF1306</title>
+  <title>Examen Parcial MF0952_2</title>
+  <!--Aquí los enlaces al código CSS-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
     integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
-  <header>
-    <h1>Examen Parcial UF1305 y UF1306</h1>
+<body class="container">
+  <header class="row">
+    <div class="col-sm-1"></div>
+    <div class="col-sm-10">
+      <h1>Examen Parcial MF0952_2</h1>
+    </div>
+    <div class="col-sm-1"></div>
   </header>
-  <main>
-    <form action="#" method="get"></form>
-    <fieldset>
-      <legend>Introduzca un dato Hexadecimal</legend><br>
+
+  <hr>
+  <p>Introduciendo un número hexadecimal en la caja de texto podra convertirlo en un número decimal.</p>
+  <hr>
+
+  <main id="contenedor" class="row">
+    <div class="col-sm-3"></div>
+    <div id="caja" class="col-sm-6">
+      <form action="#" method="get"></form>
+      <p>Introduzca un dato Hexadecimal</p><br>
       <!--Aqui se muestra el dato si es correcto o incorrecto-->
       <span id="resultado1"></span>
       <label for="hexa">Dato: </label>
       <input type="text" id="hexa" name="hexa">
       <br><br>
-    </fieldset>
-    </form>
-    <br>
-    <button id="boton">Enviar</button><br><br>
-    <section id="ventana">
-      <!--Aqui se muestra la conversión-->
-      <span id="resultado2"></span>
-    </section>
+      </form>
+      <br>
+      <button id="boton">Enviar</button><br><br>
+      <section id="ventana">
+        <!--Aqui se muestra la conversión-->
+        <span id="resultado2"></span>
+      </section>
+    </div>
+    <div class="col-sm-3"></div>
   </main>
-  <footer>&xotime; Página de examen parcial de Ibai Trueba Campo para los módulos UF1305 y UF1306 &xotime;</footer>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+  <hr>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A autem qui tenetur magni iusto. Facilis rem laudantium totam commodi hic, dignissimos eligendi, mollitia modi aut reprehenderit quod neque esse numquam.</p>
+  <hr>
+
+  <main class="row">
+    <div class="col">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit debitis sit consequuntur, id
+      praesentium magni rem molestias quidem, reiciendis dignissimos, ducimus nam iste quasi officia sapiente in
+      corporis ullam commodi!</div>
+    <div class="col">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt in labore similique aspernatur
+      sit odit voluptas commodi sint, natus omnis quos deserunt reiciendis! Quia dicta dolores aspernatur cupiditate
+      officiis? Ut?</div>
+    <div class="col">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium fuga velit dolore facere a,
+      placeat error illo accusamus ad deserunt eligendi quibusdam nihil dolorem ab. Ea quae iusto rem quaerat.</div>
+  </main>
+
+  <hr>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A autem qui tenetur magni iusto. Facilis rem laudantium totam commodi hic, dignissimos eligendi, mollitia modi aut reprehenderit quod neque esse numquam.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quos laboriosam veritatis odio illum ullam alias quasi explicabo iure libero deleniti saepe, impedit magnam eius accusamus unde ut corporis. Esse? <br>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut deleniti quas dolorem, sint aperiam unde, totam exercitationem, placeat quasi quaerat dolorum vel earum corrupti expedita dignissimos magnam a pariatur.
+  </p>
+
+  <footer class="row">
+    <div class="col-sm-1"></div>
+    <div class="col-sm-10">
+      <p>&xotime; Ibai Trueba Campo, módulo MF0952_2" &xotime;</p>
+    </div>
+    <div class="col-sm-1"></div>
+  </footer>
+  <!--Aquí los enlaces al código JS-->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    < script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js" >
+  </script>
   <script src="js/codigo.js"></script>
 </body>
 

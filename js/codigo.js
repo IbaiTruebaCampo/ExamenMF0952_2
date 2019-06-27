@@ -1,5 +1,5 @@
 /* Autor: Ibai Trueba Campo
-Fecha: 30/05/2019
+Fecha: 26/06/2019
 Descripción: Esta página convierte datos hexadecimales en decimales
 V 1.0.0. */
 

@@ -1,18 +1,17 @@
 /* Autor: Ibai Trueba Campo
-Fecha: 30/05/2019
+Fecha: 27/06/2019
 Descripción: Esta página convierte datos hexadecimales en decimales
 V 1.0.0. */
 
 header {
-  width: 400px;
   padding: 1em;
   background-color: #3d3d5c;
   color: #fff;
-  margin-top: 1em;
+  margin-top: 2em;
   text-align: center;
 }
 
-main {
+#caja {
   width: 400px;
   height: 200px;
   padding: 1em;
@@ -20,13 +19,11 @@ main {
 }
 
 footer {
-  width: 400px;
   background-color: #3d3d5c;
-  padding-right: 1em;
-  padding-left: 1em;
   color: #fff;
   text-align: center;
-
+  font-size: 1em;
+  margin-top: 2em;
 }
 
 #ventana {
@@ -41,4 +38,8 @@ footer {
 
 #rueda {
   color: #3d3d5c;
+}
+
+#contenedor {
+  margin: 2em;
 }
